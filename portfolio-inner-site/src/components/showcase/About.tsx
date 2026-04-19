@@ -127,31 +127,4 @@ const About: React.FC<AboutProps> = (props) => {
     );
 };
 
-const styles: StyleSheetCSS = {
-    contentHeader: {
-        marginBottom: 16,
-        fontSize: 48,
-    },
-    image: {
-        height: 'auto',
-        width: '100%',
-    },
-    topImage: {
-        height: 'auto',
-        width: '100%',
-        marginBottom: 32,
-    },
-    verticalImage: {
-        alignSelf: 'center',
-        // width: '80%',
-        marginLeft: 32,
-        flex: 0.8,
-
-        alignItems: 'center',
-        // marginBottom: 32,
-        textAlign: 'center',
-        flexDirection: 'column',
-    },
-};
-
 export default About;
